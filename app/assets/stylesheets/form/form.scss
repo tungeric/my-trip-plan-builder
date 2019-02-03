@@ -1,0 +1,53 @@
+.trip-plan-form {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .text-area {
+    width: 75%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.day-form {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .text-area {
+    width: 75%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    width: 200px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.add-days-button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  width: 75px;
+  margin-bottom: 30px;
+}
+
